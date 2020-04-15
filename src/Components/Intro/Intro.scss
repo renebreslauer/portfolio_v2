@@ -1,0 +1,28 @@
+.intro_container {
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    font-size: 50rem;
+    text-align: center;
+    color: black;
+}
+
+.header {
+ 
+     mix-blend-mode: multiply;
+}
+
+.header_title {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    text-align: center;
+}
+
+.intro_background_image {
+    z-index: -3;
+    position: absolute;
+  
+}
