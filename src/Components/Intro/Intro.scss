@@ -1,28 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .intro {
-  height: 150vh;
+  height: 95vh;
   position: relative;
   text-align: center;
-  background-color: lightblue;
+  background-image: url('../Assets/skyline.jpg');
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+
 
   &-spring_background {
     height: 50rem;
     width: 50rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 30%;
+    transform: translate(-50%,-50%);
     border-radius: 500px;
     text-align: center;
     animation: scaleUp 1s;
   }
   .spring_text {
     margin-top: 5rem;
-    color: orange;
+    color: grey;
     font-family: 'Abril Fatface', cursive;
     text-align: center;
-    mix-blend-mode: luminosity;
+    mix-blend-mode: overlay;
     cursor: crosshair;
 
     &--main {
@@ -54,7 +60,7 @@
   width: 40px;
   height: 70px;
   margin-left: -20px;
-  top: 60%;
+  top: 90%;
   margin-top: -35px;
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 25px;
@@ -69,7 +75,7 @@
   content: '';
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: grey;
   margin-left: -4px;
   top: 8px;
   border-radius: 4px;
