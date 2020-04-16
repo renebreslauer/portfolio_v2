@@ -1,9 +1,16 @@
 .skills_container {
-    height: 100vh;
-    background-color: pink;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
 }
 
-.header_title {
-    position: absolute;
-    text-align: center;
+.skills_title {
+  position: absolute;
+  text-align: center;
+}
+
+.skills_div {
+  background-color: yellow;
+  height: 1000px;
+  width: 100vw;
 }

@@ -1,17 +1,14 @@
-import React from 'react';
+import React from 'react'
 import './Nav.scss'
 
 function Nav() {
   return (
-<div className="Navbar">
-  <a href='#Intro'>Intro</a>
-  <a href='#About'>About</a>
-  <a href='#Skills'>Skills</a>
-</div>
-
+    <div className="navbar">
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Contact">Contact</a>
+    </div>
   )
 }
 
-export default Nav;
-
-
+export default Nav

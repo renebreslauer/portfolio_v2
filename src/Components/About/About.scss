@@ -1,18 +1,61 @@
 .about_container {
-    height: 100vh;
-    background-color: blue;
-    position: relative;
+  height: 100vh;
+  position: relative;
 }
 
 h1 {
-    font-size: 30rem;
+  font-size: 10rem;
+  color: red;
+  animation: tracking-out-contract-bck;
+  transition: 2s;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .header {
-    position: relative;
+  position: relative;
+  mix-blend-mode: multiply;
+  color: grey;
 }
 
 .header_title {
-    position: absolute;
-    text-align: center;
+  position: absolute;
+  text-align: center;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-out-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    opacity: 0;
+  }
 }

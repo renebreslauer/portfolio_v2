@@ -1,19 +1,17 @@
-import React from 'react';
-import { Nav, Intro, About, Skills } from '.././src/Components/index'
-import './App.scss';
+import React from 'react'
+import { Nav, Intro, About, Skills, Contact } from '.././src/Components/index'
+import './App.scss'
 
 function App() {
   return (
-
-<>
-     <Nav />
-    <Intro />
-    <About />
-    <Skills />
- </>
-
-   
+    <>
+      <Intro />
+      <Nav />
+      <About />
+      <Skills />
+      <Contact />
+    </>
   )
 }
 
-export default App;
+export default App
