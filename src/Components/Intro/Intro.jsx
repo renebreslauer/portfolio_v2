@@ -14,15 +14,12 @@ function Intro() {
 
   return (
 <ScrollableAnchor id={'Intro'}>
-<div className="container">
+<div className="intro_container">
 <div className="spring_container" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
       <animated.div className="header_title" style={{ transform: props.xy.interpolate(trans1) }}>
           <h1>Rene Breslauer</h1>
       </animated.div>
-      <animated.div className="intro_background_image" style={{ transform: props.xy.interpolate(trans4) }}>
-        <img src={Intro_background} className="intro_background_image" />
-
-        </animated.div>
+    
     </div>
 </div>
 </ScrollableAnchor>

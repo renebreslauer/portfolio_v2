@@ -1,6 +1,7 @@
 .intro_container {
     height: 100vh;
     position: relative;
+    background-color: yellow;
 }
 
 h1 {
@@ -21,7 +22,3 @@ h1 {
     text-align: center;
 }
 
-.intro_background_image {
-    z-index: -1;
-    position: absolute;
-}
